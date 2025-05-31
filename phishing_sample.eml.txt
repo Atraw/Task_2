@@ -1,0 +1,14 @@
+From: support@paypaI.com
+Subject: Urgent: Your Account Has Been Compromised!
+To: user@example.com
+
+Dear Customer,
+
+We have detected suspicious activity on your PayPal account. To secure your account, please log in immediately using the link below and update your password.
+
+Click here: http://paypaI.com/login
+
+If you do not act within 24 hours, your account will be suspended.
+
+Thank you,
+PayPal Security Team
