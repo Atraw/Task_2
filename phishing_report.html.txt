@@ -1,47 +1,60 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Phishing Email Analysis Report</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 2em; }
-        table { border-collapse: collapse; width: 80%; margin: 1em 0; }
-        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-        th { background-color: #f2f2f2; }
-    </style>
-</head>
-<body>
-    <h1>Phishing Email Analysis Report</h1>
-    <h2>Sample Email</h2>
-    <pre>
-From: support@paypaI.com
-Subject: Urgent: Your Account Has Been Compromised!
-To: user@example.com
+# Phishing Email Analysis Task
 
-Dear Customer,
+**Created by:** Mohini  
+**Date:** 1 June 2025
 
-We have detected suspicious activity on your PayPal account. To secure your account, please log in immediately using the link below and update your password.
+---
 
-Click here: http://paypaI.com/login
+## What I Did
 
-If you do not act within 24 hours, your account will be suspended.
+For this task, I analyzed a sample phishing email to identify common phishing characteristics. I followed the provided guidelines and used free online tools to examine the email headers and content. My goal was to improve my ability to detect phishing attempts and understand how attackers trick users.
 
-Thank you,
-PayPal Security Team
-    </pre>
+---
 
-    <h2>Phishing Indicators Found</h2>
-    <table>
-        <tr><th>Indicator</th><th>Example/Checklist</th><th>Found?</th></tr>
-        <tr><td>Spoofed sender address</td><td>“support@paypaI.com” (note the capital “I” instead of “l”)</td><td>Yes</td></tr>
-        <tr><td>Urgent/threatening tone</td><td>“Urgent: Your Account Has Been Compromised!”, “act within 24 hours”</td><td>Yes</td></tr>
-        <tr><td>Suspicious link</td><td>“http://paypaI.com/login” (not the real PayPal domain)</td><td>Yes</td></tr>
-        <tr><td>Request for credentials</td><td>Asks to “log in” and “update your password”</td><td>Yes</td></tr>
-        <tr><td>Spelling/grammar errors</td><td>None obvious, but domain spoofing is present</td><td>No</td></tr>
-    </table>
+## Files
 
-    <h2>Conclusion</h2>
-    <p>
-        This email contains multiple phishing indicators, including a spoofed sender address, urgent language, and a suspicious link that does not match the legitimate PayPal domain. Users should avoid clicking on such links and never enter credentials on unknown sites.
-    </p>
-</body>
-</html>
+- **phishing_sample.eml**: The sample phishing email I analyzed.
+- **phishing_report.html**: My detailed analysis report.
+- **(Optional) interview_answers.txt**: My answers to the interview questions.
+
+---
+
+## How to Use
+
+1. **Open `phishing_report.html` in your browser** to view my analysis.
+2. **Review `phishing_sample.eml`** to see the original email.
+3. **(Optional) Check `interview_answers.txt`** for my responses to the interview questions.
+
+---
+
+## Resources I Used
+
+- **Sample Phishing Email:**  
+  - Downloaded from [Phishing.org – Phishing Examples](https://www.phishing.org/phishing-examples)
+- **Email Header Analyzer:**  
+  - [MxToolbox Email Header Analyzer](https://mxtoolbox.com/EmailHeaders.aspx)
+- **Nmap Documentation:**  
+  - [Nmap Official Website](https://nmap.org/)
+- **GitHub Guides:**  
+  - [GitHub Docs](https://docs.github.com/)
+- **Other References:**  
+  - [StaySafeOnline – What is Phishing?](https://staysafeonline.org/resources/phishing/)
+  - [Microsoft – How to Recognize Phishing Emails](https://support.microsoft.com/en-us/windows/protect-yourself-from-phishing-0c7ea947-ba98-3bd9-7184-430e1f860a44)
+
+---
+
+## Key Concepts Learned
+
+- **Phishing:** Fraudulent attempts to obtain sensitive information by impersonating trustworthy entities.
+- **Email Spoofing:** Forging email sender addresses to appear as if the email is from a legitimate source.
+- **Header Analysis:** Examining email metadata to detect spoofing and other anomalies.
+- **Social Engineering:** Manipulating people into performing actions or revealing confidential information.
+- **Threat Detection:** Identifying and responding to potential cyber threats.
+
+---
+
+## Final Thoughts
+
+This task helped me understand how phishing attacks work and how to spot them. I learned the importance of checking sender addresses, links, and email headers, and how to use free tools to analyze suspicious emails. I also improved my skills in reporting and documenting my findings.
+
+---
