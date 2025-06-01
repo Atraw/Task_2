@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Phishing Email Analysis</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2em; background: #f9f9f9; }
+        h1, h2 { color: #2c3e50; }
+        table { border-collapse: collapse; width: 90%; margin: 1em auto; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background: #e0e0e0; }
+        pre { background: #f0f0f0; padding: 1em; border-radius: 5px; overflow-x: auto; }
+        .resources { background: #e8f4f8; padding: 1em; border-radius: 5px; margin-top: 2em; }
+        .conclusion { background: #f0f7f0; padding: 1em; border-radius: 5px; margin-top: 1em; }
+    </style>
+</head>
+<body>
+    <h1>My Phishing Email Analysis</h1>
+    <p><strong>Created by:</strong> Mohini<br>
+    <strong>Date:</strong> 1 June 2025</p>
+
+    <h2>Sample Email</h2>
+    <pre>
+From: support@paypaI.com
+Subject: Urgent: Your Account Has Been Compromised!
+To: user@example.com
+
+Dear Customer,
+
+We have detected suspicious activity on your PayPal account. To secure your account, please log in immediately using the link below and update your password.
+
+Click here: http://paypaI.com/login
+
+If you do not act within 24 hours, your account will be suspended.
+
+Thank you,
+PayPal Security Team
+    </pre>
+
+    <h2>Phishing Indicators Found</h2>
+    <table>
+        <tr><th>Indicator</th><th>Example/Checklist</th><th>Found?</th></tr>
+        <tr><td>Spoofed sender address</td><td>“support@paypaI.com” (note the capital “I” instead of “l”)</td><td>Yes</td></tr>
+        <tr><td>Urgent/threatening tone</td><td>“Urgent: Your Account Has Been Compromised!”, “act within 24 hours”</td><td>Yes</td></tr>
+        <tr><td>Suspicious link</td><td>“http://paypaI.com/login” (not the real PayPal domain)</td><td>Yes</td></tr>
+        <tr><td>Request for credentials</td><td>Asks to “log in” and “update your password”</td><td>Yes</td></tr>
+        <tr><td>Spelling/grammar errors</td><td>None obvious, but domain spoofing is present</td><td>No</td></tr>
+    </table>
+
+    <div class="conclusion">
+        <h2>Conclusion</h2>
+        <p>
+            This email contains multiple phishing indicators, including a spoofed sender address, urgent language, and a suspicious link that does not match the legitimate PayPal domain. Users should avoid clicking on such links and never enter credentials on unknown sites.
+        </p>
+    </div>
+
+    <div class="resources">
+        <h2>Resources I Used</h2>
+        <ul>
+            <li><strong>Sample Phishing Email:</strong> <a href="https://www.phishing.org/phishing-examples">Phishing.org – Phishing Examples</a></li>
+            <li><strong>Email Header Analyzer:</strong> <a href="https://mxtoolbox.com/EmailHeaders.aspx">MxToolbox Email Header Analyzer</a></li>
+            <li><strong>Nmap Documentation:</strong> <a href="https://nmap.org/">Nmap Official Website</a></li>
+            <li><strong>GitHub Guides:</strong> <a href="https://docs.github.com/">GitHub Docs</a></li>
+            <li><strong>Other References:</strong>
+                <ul>
+                    <li><a href="https://staysafeonline.org/resources/phishing/">StaySafeOnline – What is Phishing?</a></li>
+                    <li><a href="https://support.microsoft.com/en-us/windows/protect-yourself-from-phishing-0c7ea947-ba98-3bd9-7184-430e1f860a44">Microsoft – How to Recognize Phishing Emails</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <p style="margin-top: 2em; font-style: italic;">Thanks for checking out my work!</p>
+</body>
+</html>
